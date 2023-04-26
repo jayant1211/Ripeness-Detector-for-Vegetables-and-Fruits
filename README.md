@@ -3,6 +3,9 @@
 
 ## Arduino based real-time fruit and vegetable ripeness detection system using spectral analysis, utilizing an RGB Color Sensor and a Python-based interface for data processing and analysis.
 
+<i>To access a comprehensive and detailed methodology, please refer to the our publication in IEEE CONIT 2022<br>
+IEEE Explore: https://ieeexplore.ieee.org/document/9847917</i>.
+
 The ripening and color transition of fruit and vegetables are closely related to each other. Changes in Chlorophyll, Carotenoids, flavonoids and other important pigments decide the color of fruit and vegetables. As fruit/vegetables ripe, over time, the number of these particular pigments changes, changing the color of the fruit or vegetables. Using this relationship based on color, and by using appropriate technology one can determine the ripeness of the fruit and vice versa for a particular fruit or vegetable. It has been shown that different color spaces produce different results with spectral analysis.
 
 <img src="https://github.com/jayant1211/Ripeness-Detector-for-Vegetables-and-Fruits/blob/main/rsc/img.jpg" width="75%" height="75%">
@@ -26,7 +29,3 @@ Schematics:<br>
 D. Using Python code to interface with an Arduino board, the program outputs one of four classifications - Early Ripe(0), Partially Ripe(1), Ripe(2), or Decay(3) - based on the status of the connected device. (refer main.ipynb)
 
 E. Each unique output lits up a unique LED.
-
-
-<i>To access a comprehensive and detailed methodology, please refer to the our publication in IEEE CONIT 2022<br>
-IEEE Explore: https://ieeexplore.ieee.org/document/9847917</i>.
